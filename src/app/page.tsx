@@ -278,7 +278,7 @@ export default function ResumePage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>
-                <Link href="mailto:john.doe@email.com">
+                <Link href="mailto:fahadhassan2305@hotmail.com">
                   <Mail className="mr-2 h-5 w-5" />
                   Send Email
                 </Link>
@@ -290,7 +290,7 @@ export default function ResumePage() {
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <Link href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer">
+                <Link href="https://github.com/fahadmalikawan9001" target="_blank" rel="noopener noreferrer">
                   <Github className="mr-2 h-5 w-5" />
                   GitHub
                 </Link>
