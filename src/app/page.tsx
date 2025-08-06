@@ -120,7 +120,7 @@ export default function ResumePage() {
                 height={150}
                 className="rounded-full mx-auto mb-6 border-4 border-white shadow-lg"
               />
-              <h1 className="text-4xl md:text-6xl font-bold mb-4">John Doe</h1>
+              <h1 className="text-4xl md:text-6xl font-bold mb-4">Fahad Hassan</h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-6">Full Stack Developer & UI/UX Enthusiast</p>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
                 Passionate developer with 1+ years of experience creating modern web applications. I love turning
@@ -145,15 +145,15 @@ export default function ResumePage() {
             <div className="flex flex-wrap justify-center gap-6 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4" />
-                San Francisco, CA
+                Rawalpindi, Islamabad, PK.
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
-                john.doe@email.com
+                fahadhassan2305@hotmail.com
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4" />
-                (555) 123-4567
+                +92 318 3648613
               </div>
             </div>
           </div>
