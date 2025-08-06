@@ -50,7 +50,7 @@ export default function ResumePage() {
   const skills = {
     Frontend: ["React", "JavaScript", "HTML5", "CSS"],
     Backend: ["Node.js","Python", "FAST APIs"],
-    "Tools & Others": ["Git", "Vercel", "Figma", "Webpack"],
+    "Tools & Others": ["Git", "Vercel", "Figma"],
   }
 
   const experience = [
