@@ -85,7 +85,7 @@ export default function ResumePage() {
           <nav className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <User className="h-6 w-6" />
-              <span className="font-bold text-xl">John Doe</span>
+              <span className="font-bold text-xl">Malik Fahad Hassan Awan</span>
             </div>
             <div className="hidden md:flex items-center space-x-6">
               <Link href="#about" className="text-sm font-medium hover:text-primary transition-colors">
@@ -123,7 +123,7 @@ export default function ResumePage() {
               <h1 className="text-4xl md:text-6xl font-bold mb-4">John Doe</h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-6">Full Stack Developer & UI/UX Enthusiast</p>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-                Passionate developer with 5+ years of experience creating modern web applications. I love turning
+                Passionate developer with 1+ years of experience creating modern web applications. I love turning
                 complex problems into simple, beautiful, and intuitive solutions.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
@@ -304,7 +304,7 @@ export default function ResumePage() {
       <footer className="border-t py-8">
         <div className="container mx-auto px-4">
           <div className="text-center text-muted-foreground">
-            <p>&copy; {new Date().getFullYear()} John Doe. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Fahad Hassan. All rights reserved.</p>
           </div>
         </div>
       </footer>
