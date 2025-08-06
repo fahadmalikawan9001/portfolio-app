@@ -48,9 +48,9 @@ export default function ResumePage() {
   ]
 
   const skills = {
-    Frontend: ["React", "Next.js", "Vue.js", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS"],
-    Backend: ["Node.js", "Express.js", "Python", "Django", "PostgreSQL", "MongoDB", "REST APIs"],
-    "Tools & Others": ["Git", "Docker", "AWS", "Vercel", "Figma", "Jest", "Webpack"],
+    Frontend: ["React", "JavaScript", "HTML5", "CSS"],
+    Backend: ["Node.js","Python", "FAST APIs"],
+    "Tools & Others": ["Git", "Vercel", "Figma", "Webpack"],
   }
 
   const experience = [
