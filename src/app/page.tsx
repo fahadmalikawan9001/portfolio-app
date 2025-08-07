@@ -55,26 +55,13 @@ export default function ResumePage() {
 
   const experience = [
     {
-      title: "Senior Frontend Developer",
-      company: "Tech Solutions Inc.",
-      period: "2022 - Present",
+      title: "Frontend Developer",
+      company: "Nutech Innovation Center NIC",
+      period: "2024 - 2025",
       description:
         "Led development of responsive web applications using React and Next.js. Collaborated with design teams to implement pixel-perfect UIs and improved application performance by 40%.",
     },
-    {
-      title: "Full Stack Developer",
-      company: "Digital Agency Co.",
-      period: "2020 - 2022",
-      description:
-        "Developed and maintained multiple client websites and web applications. Built RESTful APIs and integrated third-party services. Mentored junior developers and conducted code reviews.",
-    },
-    {
-      title: "Junior Web Developer",
-      company: "StartUp Ventures",
-      period: "2019 - 2020",
-      description:
-        "Assisted in building responsive websites and web applications. Gained experience in modern JavaScript frameworks and agile development methodologies.",
-    },
+    
   ]
 
   return (
