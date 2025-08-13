@@ -3,7 +3,7 @@
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { CalendarDays, ExternalLink, Github, Linkedin, Mail, MapPin, Phone, User } from "lucide-react"
+import { CalendarDays, ExternalLink, Github, Mail, MapPin, Phone, User } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -15,7 +15,7 @@ export default function ResumePage() {
         "Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.",
       technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
       liveUrl: "https://example-ecommerce.vercel.app",
-      githubUrl: "https://github.com/yourusername/ecommerce-platform",
+      githubUrl: "https://github.com/fahadmalikawan9001/ecommerce-platform",
       image: "/placeholder.svg?height=200&width=400&text=E-Commerce+Platform",
     },
     {
@@ -24,7 +24,7 @@ export default function ResumePage() {
         "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
       technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Socket.io"],
       liveUrl: "https://taskmanager-demo.vercel.app",
-      githubUrl: "https://github.com/yourusername/task-manager",
+      githubUrl: "https://github.com/fahadmalikawan9001/task-manager",
       image: "/placeholder.svg?height=200&width=400&text=Task+Manager",
     },
     {
@@ -33,7 +33,7 @@ export default function ResumePage() {
         "Interactive weather dashboard with location-based forecasts, charts, and weather alerts using external APIs.",
       technologies: ["Vue.js", "Chart.js", "OpenWeather API", "CSS3"],
       liveUrl: "https://weather-dashboard-demo.netlify.app",
-      githubUrl: "https://github.com/yourusername/weather-dashboard",
+      githubUrl: "https://github.com/fahadmalikawan9001/weather-dashboard",
       image: "/placeholder.svg?height=200&width=400&text=Weather+Dashboard",
     },
     {
@@ -42,14 +42,14 @@ export default function ResumePage() {
         "Responsive portfolio website built with modern web technologies, featuring smooth animations and optimized performance.",
       technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "Vercel"],
       liveUrl: "https://yourportfolio.vercel.app",
-      githubUrl: "https://github.com/yourusername/portfolio",
+      githubUrl: "https://github.com/fahadmalikawan9001/portfolio",
       image: "/placeholder.svg?height=200&width=400&text=Portfolio+Website",
     },
   ]
 
   const skills = {
     Frontend: ["React", "JavaScript", "HTML5", "CSS"],
-    Backend: ["Node.js","Python", "FAST APIs"],
+    Backend: ["Node.js", "Python", "FAST APIs"],
     "Tools & Others": ["Git", "Vercel", "Figma"],
   }
 
@@ -61,7 +61,6 @@ export default function ResumePage() {
       description:
         "Led development of responsive web applications using React and Next.js. Collaborated with design teams to implement pixel-perfect UIs and improved application performance by 40%.",
     },
-    
   ]
 
   return (
@@ -268,10 +267,6 @@ export default function ResumePage() {
                 <Link href="mailto:fahadhassan2305@hotmail.com">
                   <Mail className="mr-2 h-5 w-5" />
                   Send Email
-                </Link>
-              </Button>
-              <Button size="lg" variant="outline" asChild>
-                
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
