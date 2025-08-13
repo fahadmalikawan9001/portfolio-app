@@ -119,11 +119,6 @@ export default function ResumePage() {
                     Get In Touch
                   </Link>
                 </Button>
-                <Button variant="outline" asChild>
-                  <Link href="/resume.pdf" target="_blank">
-                    Download Resume
-                  </Link>
-                </Button>
               </div>
             </div>
 
