@@ -11,6 +11,6 @@ Smooth navigation & clean interface 🎨
 
 Showcases my projects, skills, and contact info 📂
 
-Live Demo: https://portfolio-app-ochre-two.vercel.app/
+Live Demo: https://portfolio-app-9cci.vercel.app/
 
 Regards :)
