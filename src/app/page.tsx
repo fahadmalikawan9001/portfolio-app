@@ -15,7 +15,7 @@ export default function ResumePage() {
         "Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.",
       technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
       liveUrl: "https://example-ecommerce.vercel.app",
-      githubUrl: "https://github.com/fahadmalikawan9001/ecommerce-platform",
+      githubUrl: "https://github.com/yourusername/ecommerce-platform",
       image: "/placeholder.svg?height=200&width=400&text=E-Commerce+Platform",
     },
     {
@@ -24,7 +24,7 @@ export default function ResumePage() {
         "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
       technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Socket.io"],
       liveUrl: "https://taskmanager-demo.vercel.app",
-      githubUrl: "https://github.com/fahadmalikawan9001/task-manager",
+      githubUrl: "https://github.com/yourusername/task-manager",
       image: "/placeholder.svg?height=200&width=400&text=Task+Manager",
     },
     {
@@ -33,7 +33,7 @@ export default function ResumePage() {
         "Interactive weather dashboard with location-based forecasts, charts, and weather alerts using external APIs.",
       technologies: ["Vue.js", "Chart.js", "OpenWeather API", "CSS3"],
       liveUrl: "https://weather-dashboard-demo.netlify.app",
-      githubUrl: "https://github.com/fahadmalikawan9001/weather-dashboard",
+      githubUrl: "https://github.com/yourusername/weather-dashboard",
       image: "/placeholder.svg?height=200&width=400&text=Weather+Dashboard",
     },
     {
@@ -42,7 +42,7 @@ export default function ResumePage() {
         "Responsive portfolio website built with modern web technologies, featuring smooth animations and optimized performance.",
       technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "Vercel"],
       liveUrl: "https://yourportfolio.vercel.app",
-      githubUrl: "https://github.com/fahadmalikawan9001/portfolio",
+      githubUrl: "https://github.com/yourusername/portfolio",
       image: "/placeholder.svg?height=200&width=400&text=Portfolio+Website",
     },
   ]
@@ -291,4 +291,3 @@ export default function ResumePage() {
     </div>
   )
 }
- 
