@@ -271,9 +271,7 @@ export default function ResumePage() {
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <Link href="https://linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer">
-                  <Linkedin className="mr-2 h-5 w-5" />
-                  LinkedIn
+                
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
