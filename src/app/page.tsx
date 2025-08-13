@@ -10,10 +10,10 @@ import Link from "next/link"
 export default function ResumePage() {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Repair Card Generator",
       description:
-        "Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
+        "Full-stack Repair Card Generator with React, Node.js. Features include user filling out the form and then a repair card would be generated for the user.",
+      technologies: ["React", "Node.js"],
       liveUrl: "https://example-ecommerce.vercel.app",
       githubUrl: "https://github.com/yourusername/ecommerce-platform",
       image: "/placeholder.svg?height=200&width=400&text=E-Commerce+Platform",
