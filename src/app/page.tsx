@@ -14,9 +14,9 @@ export default function ResumePage() {
       description:
         "Full-stack Repair Card Generator with React, Node.js. Features include user filling out the form and then a repair card would be generated for the user.",
       technologies: ["React", "Node.js"],
-      liveUrl: "https://example-ecommerce.vercel.app",
-      githubUrl: "https://github.com/yourusername/ecommerce-platform",
-      image: "/placeholder.svg?height=200&width=400&text=E-Commerce+Platform",
+      liveUrl: "https://repair-card-generator.vercel.app", // Update with your actual URL
+      githubUrl: "https://github.com/fahadmalikawan9001/repair-card-generator", // Updated with your username
+      image: "/placeholder.svg?height=200&width=400&text=Repair+Card+Generator",
     },
     {
       title: "Task Management App",
@@ -24,7 +24,7 @@ export default function ResumePage() {
         "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
       technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Socket.io"],
       liveUrl: "https://taskmanager-demo.vercel.app",
-      githubUrl: "https://github.com/yourusername/task-manager",
+      githubUrl: "https://github.com/fahadmalikawan9001/task-manager", // Updated with your username
       image: "/placeholder.svg?height=200&width=400&text=Task+Manager",
     },
     {
@@ -33,7 +33,7 @@ export default function ResumePage() {
         "Interactive weather dashboard with location-based forecasts, charts, and weather alerts using external APIs.",
       technologies: ["Vue.js", "Chart.js", "OpenWeather API", "CSS3"],
       liveUrl: "https://weather-dashboard-demo.netlify.app",
-      githubUrl: "https://github.com/yourusername/weather-dashboard",
+      githubUrl: "https://github.com/fahadmalikawan9001/weather-dashboard", // Updated with your username
       image: "/placeholder.svg?height=200&width=400&text=Weather+Dashboard",
     },
     {
@@ -41,8 +41,8 @@ export default function ResumePage() {
       description:
         "Responsive portfolio website built with modern web technologies, featuring smooth animations and optimized performance.",
       technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "Vercel"],
-      liveUrl: "https://yourportfolio.vercel.app",
-      githubUrl: "https://github.com/yourusername/portfolio",
+      liveUrl: "https://yourportfolio.vercel.app", // Update with your actual portfolio URL
+      githubUrl: "https://github.com/fahadmalikawan9001/portfolio", // Updated with your username
       image: "/placeholder.svg?height=200&width=400&text=Portfolio+Website",
     },
   ]
@@ -100,8 +100,8 @@ export default function ResumePage() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="mb-8">
               <Image
-                src="/placeholder.svg?height=150&width=150&text=Profile"
-                alt="Profile Picture"
+                src="/images/profile.jpg" // 🔥 CHANGED: Now uses your actual profile image
+                alt="Fahad Hassan Profile Picture"
                 width={150}
                 height={150}
                 className="rounded-full mx-auto mb-6 border-4 border-white shadow-lg"
@@ -117,6 +117,11 @@ export default function ResumePage() {
                   <Link href="#contact">
                     <Mail className="mr-2 h-4 w-4" />
                     Get In Touch
+                  </Link>
+                </Button>
+                <Button variant="outline" asChild>
+                  <Link href="/resume.pdf" target="_blank">
+                    Download Resume
                   </Link>
                 </Button>
               </div>
