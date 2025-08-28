@@ -36,15 +36,6 @@ export default function ResumePage() {
       githubUrl: "https://github.com/fahadmalikawan9001/weather-dashboard", // Updated with your username
       image: "/placeholder.svg?height=200&width=400&text=Weather+Dashboard",
     },
-    {
-      title: "Portfolio Website",
-      description:
-        "Responsive portfolio website built with modern web technologies, featuring smooth animations and optimized performance.",
-      technologies: ["Next.js", "Framer Motion", "Tailwind CSS", "Vercel"],
-      liveUrl: "https://yourportfolio.vercel.app", // Update with your actual portfolio URL
-      githubUrl: "https://github.com/fahadmalikawan9001/portfolio", // Updated with your username
-      image: "/placeholder.svg?height=200&width=400&text=Portfolio+Website",
-    },
   ]
 
   const skills = {
